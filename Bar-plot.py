@@ -13,5 +13,5 @@ import numpy as np
 x = np.array(["A","B","C","D"])
 y = np.array([1,8,4,5])
 
-plt.bar(x,y)
+plt.barh(x,y) #horizontally
 plt.show()
